@@ -127,7 +127,11 @@ u {
 <!-- Container (WHEN Section) -->
 <div class="w3-content w3-container w3-padding-64" id="when">
   <h3 class="w3-center">NEXT GIVEAWAY</h3>
-  <p class="w3-center"><em>Saturday, March 25, 2017<br>10 AM - 12 PM</em></p><br>
+  <em>
+    <p id="next_date" class="w3-center"></p>
+    <p id="start_time" class="w3-center"></p>
+    <p id="end_time" class="w3-center"></p>
+  </em>
 </div>
 
 <!-- Third Parallax Image with WHERE Text -->
@@ -153,12 +157,14 @@ u {
     </div>
     <div class="w3-col l5 m6 s12 w3-container">
       <div class="w3-large w3-margin-bottom">
-        Margaret T Hance Park<br>
-        1202 North 3rd Street<br>
-        Phoenix, Arizona 85003<br>
-        <br>
-        Meet at the EAST end of Hance Park<br>
-        near Phoenix Center for the Arts.<br>
+        <ul style="list-style-type:none">
+          <li id="address_1"></li>
+          <li id="address_2"></li>
+          <li id="address_3">Phoenix, Arizona</li>
+        </ul>
+        <ul style="list-style-type:none">
+          <li id="directions"></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -171,6 +177,8 @@ u {
   </div>
   <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 </footer>
+
+<script src="date_and_location.js"></script>
 
 <script>
 <!-- Add Google Maps -->
