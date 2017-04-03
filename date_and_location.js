@@ -1,6 +1,6 @@
-document.getElementById("next_date").innerHTML = "TBD";
-document.getElementById("start_time").innerHTML = "TBD";
-document.getElementById("end_time").innerHTML = "TBD";
+document.getElementById("next_date").innerHTML = "Saturday, April 29, 2017";
+document.getElementById("start_time").innerHTML = "10:00 AM";
+document.getElementById("end_time").innerHTML = "NOON";
 document.getElementById("address_1").innerHTML = "Margaret T Hance Park";
 document.getElementById("address_2").innerHTML = "1202 North 3rd Street";
 document.getElementById("address_3").innerHTML = "Phoenix, AZ 85004";
